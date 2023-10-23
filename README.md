@@ -28,7 +28,7 @@ Within our test, we need to create three different orders:
 - **order3**: with a different reference, "reference2," and sharing the name with order, which is "name.
 
 
-https://github.com/cristianprofile/test-factory-pattern/blob/ca76b7b06170d03b44dd532183b9ba3f9847f36d/src/test/kotlin/TestJavaUsingNew.kt#L1-L27
+github.com/cristianprofile/test-factory-pattern/blob/main/src/test/kotlin/TestJavaUsingNew.kt#L1-L27
 
 
 This test demonstrates the creation of Order objects with different values. As you can see the test includes many unnecessary details related to object creation. If we introduce a new field or make changes to the constructor, we would have to modify many lines of code in the test, making it tightly coupled to how objects are created. This can lead to writing fragile tests that are not resilient to changes within our application.
