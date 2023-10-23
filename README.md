@@ -50,7 +50,7 @@ Instancio is a library used to simplify object creation in unit tests and for ge
 Instead of manually creating object instances and explicitly defining each of their attributes, Instancio allows us to define an object of the desired class with its initial values in a simpler way.
 
 
-https://github.com/cristianprofile/test-factory-pattern/blob/ca76b7b06170d03b44dd532183b9ba3f9847f36d/src/test/kotlin/TestJavaBuilder.kt#L1#L1-L22
+https://github.com/cristianprofile/test-factory-pattern/blob/ca76b7b06170d03b44dd532183b9ba3f9847f36d/src/test/kotlin/TestJavaBuilder.kt#L1-L22
 
 Main advantages of this new approach using builders are:
 
@@ -83,7 +83,7 @@ Products class is annotated with Lombok's NoArgsConstructor, AllArgsConstructor,
 Now let's see an example of a test created for this class.
 
 
-https://github.com/cristianprofile/test-factory-pattern/blob/ca76b7b06170d03b44dd532183b9ba3f9847f36d/src/test/kotlin/TestLombok.kt#L1#L1-L21
+https://github.com/cristianprofile/test-factory-pattern/blob/ca76b7b06170d03b44dd532183b9ba3f9847f36d/src/test/kotlin/TestLombok.kt#L1-L21
 
 ## Decrease Code using Kotlin
 
