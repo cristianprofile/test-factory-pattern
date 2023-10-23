@@ -73,7 +73,7 @@ To address this issue of redundant code we can take advantage of Lombok. We can 
 Here is an example of what a new Product class would look like using the builder pattern with Lombok's support.
 
 
-https://github.com/cristianprofile/test-factory-pattern/blob/1a1d1615dc0ba84f582acc3cb214c66694bddc98/src/main/java/examples/factory/Product.java#L1-L11
+https://github.com/cristianprofile/test-factory-pattern/blob/4ad92d6b4e57a8925a5e58a55df5896188a17057/src/main/java/examples/factory/Product.java#L1-L11
 
 
 https://github.com/cristianprofile/test-factory-pattern/blob/1a1d1615dc0ba84f582acc3cb214c66694bddc98/src/main/java/examples/factory/Products.java#L1-L51
