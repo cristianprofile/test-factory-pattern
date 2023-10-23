@@ -20,7 +20,7 @@ Imagine we have a class Order with the following structure in our code:
 https://github.com/cristianprofile/test-factory-pattern/blob/main/src/main/java/examples/factory/Order.java#L1-L12
 
 
-github.com/cristianprofile/test-factory-pattern/blob/main/src/main/java/examples/factory/Order.java#L1-L12
+github.com/cristianprofile/test-factory-pattern/blob/main/src/main/java/examples/factory/Order.java?plain=1#L14
 
 
 
