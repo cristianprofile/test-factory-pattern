@@ -1,4 +1,4 @@
-# Test factory pattern 
+# Test factory pattern
 
 "Reduce redundancy and enhancing clarity in test data generation."
 
@@ -11,7 +11,7 @@ To address this, we will introduce a straightforward way to eliminate duplicatio
 In this article, we will use Kotlin for the example code, writing all class definitions in Java except for the last one to showcase Kotlin's more powerful solution.
 
 
-## Test Cases using "new" 
+## Test Cases using "new"
 
 
 
@@ -106,17 +106,17 @@ The object construction by name in Kotlin is based on the use of named arguments
 
 In this case, we call the "build" function, overriding the value of the "name" attribute defined by Instancio and assigning the value "cristian."
 
- val user2 = Users.build(name = "cristian")
+    val user2 = Users.build(name = "cristian")
 
 
 In this other case, we call the "build" function, overriding the "name" attribute with "jose" and the "surname" attribute defined by Instancio with "gomez."
 
-  val user3 = Users.build(name = "jose", surname = "gomez")
+    val user3 = Users.build(name = "jose", surname = "gomez")
 
 
 For this case, we use the "copy" method of Kotlin's data class, which allows us to copy the entire object and change the properties that we define within it (if only Java Records had this feature). In this case, we modify the "id" attribute associated with the user3 created with the value "33."
 
-  val userWithNewId = user3.copy(id = "33")
+    val userWithNewId = user3.copy(id = "33")
 
 n this code repository, we've explored various object creation patterns for testing, making it more effective and expressive. We've demonstrated how these patterns can be applied in Kotlin, a language equipped with powerful tools for minimizing code and improving readability. As you navigate through your development projects, we encourage you to consider adopting these patterns to simplify your tests and, ultimately, enhance your software's quality. Thank you for accompanying us on this journey, and feel free to experiment with these techniques in your own projects.
 
