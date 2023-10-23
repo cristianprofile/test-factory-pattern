@@ -1,6 +1,6 @@
 # Test factory pattern
 
-"Reduce redundancy and enhancing clarity in test data generation."
+*Reduce redundancy and enhancing clarity in test data generation.*
 
 Imagine a world without repetitive code and with software tests that are clear, readable, and expressive. In this article we will explain a technique that brings us one step closer to that ideal.
 
