@@ -87,7 +87,7 @@ Bonus track: Product class is annotated with Lombok's @with that allows to copy 
 Now let's see an example of a test created for this class.
 
 
-https://github.com/cristianprofile/test-factory-pattern/blob/1a1d1615dc0ba84f582acc3cb214c66694bddc98/src/test/kotlin/TestLombok.kt#L1-L21
+https://github.com/cristianprofile/test-factory-pattern/blob/1a1d1615dc0ba84f582acc3cb214c66694bddc98/src/test/kotlin/TestLombok.kt#L1-L28
 
 ## Decrease Code using Kotlin
 
