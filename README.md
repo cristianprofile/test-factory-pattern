@@ -17,7 +17,9 @@ In this article, we will use Kotlin for the example code, writing all class defi
 
 Imagine we have a class Order with the following structure in our code:
 
-github.com/cristianprofile/test-factory-pattern/blob/main/src/main/java/examples/factory/Order.java#L1-L12
+
+https://github.com/cristianprofile/test-factory-pattern/blob/7f395ddd5279f29e04e5a5ab0057d7f42d0230a3/src/main/java/examples/factory/Order.java#L1-L12
+
 
 
 
