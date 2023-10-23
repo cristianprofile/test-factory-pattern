@@ -80,6 +80,8 @@ https://github.com/cristianprofile/test-factory-pattern/blob/16acb75d437db87d34e
 
 Products class is annotated with Lombok's NoArgsConstructor, AllArgsConstructor, and With annotations, which help automatically generate no-argument constructors, all-argument constructors, and methods for cloning objects with modified fields, similar to the "with" methods created earlier but without having to write the repetitive code manually.
 
+Bonus track: Product class is annotated with Lombok's @with that allows to copy immutable objects created using new record java classes
+
 Now let's see an example of a test created for this class.
 
 
